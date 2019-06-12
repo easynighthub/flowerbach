@@ -22,6 +22,8 @@
 
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 	<link rel="stylesheet" href="assets/css/main.css" />
+
+	<!-- <link href="fontawesome-free-5.9.0-web/css/all.css" rel="stylesheet"> -->
 	<link href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css" rel="stylesheet">
 	<script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
 
@@ -111,26 +113,35 @@
 	<!-- Main -->
 	<div id="main">
 
+
+
 		<!-- Intro -->
 		<section id="top" class="one dark cover">
-			<div class="container" style="background-color: rgba(0, 0, 0, 0.3);border-radius: 10px 10px 10px 10px;">
-				<br>
-				<header style="color :white;">
-					<h2 class="alt">Bienvenidos a </h2>
+			<div class="container col-md-8 col-sm-10 col-11" style="
+			background-color: rgba(0, 0, 0, 0.6);border-radius: 10px 10px 10px 10px;
 
-					<h2 class="alt">
+			">
+				<br>
+
+
+				<header style="color :white;">
+					<h2 class="alt textShadow">Bienvenidos  </h2>
+
+					<h2 class="alt ">
 						<a href="#about"><strong>Escuela Santa Beatriz</strong></a> </h2>
 
 					<!-- <p style="    margin: 0;"> > María Ester Céspedes.</p> -->
 				</header>
 
 				<footer>
-					<a href="#contact" class="mdc-button mdc-button--raised">Contacto</a>
-					<br><br>
-					<p><em> "La enfermedad es en esencia el resultado de un conflicto entre el alma y la mente,<br> y
-							nunca podrá ser erradicada sin un esfuerzo espiritual y mental."</em></p>
+
+					<p class="textShadow"><em> "La enfermedad es en esencia el resultado de un conflicto entre el alma y la mente,<br> y
+							nunca podrá ser erradicada sin un esfuerzo espiritual y mental."
+
+						</em></p>
 					<p>Edward Bach</p>
 					<!-- <a style="    background: #e27689;" href="#portfolio" class="button scrolly">Malla Curricular y Precios</a> -->
+					<a  data-toggle="modal" data-target="#contacto" class="mdc-button mdc-button--raised">Contacto</a>
 				</footer>
 				<br>
 
@@ -149,7 +160,7 @@
 
 
 				<div class="row">
-					<div class=" col-md-3">
+					<div class="efect col-md-3">
 						<h5 class="card-title">EN <strong> NIÑOS</strong></h5>
 						<img class="card-img-top" src="images/g6.jpg" alt="Card image cap">
 						<div class="card-body">
@@ -605,6 +616,7 @@
 		crossorigin="anonymous"></script>
 
 	<script src="index.js"></script>
+	<script defer src="fontawesome-free-5.9.0-web/js/all.js"></script>
 </body>
 
 
@@ -618,7 +630,10 @@
 		<div class="modal-content">
 			<div class="modal-header">
 					<h5 class="modal-title" id="exampleModalLongTitle"> <strong>INFORMACIÓN</strong></h5>
+					<button  style="float: right" type="button" class="mdc-button mdc-button--raised" data-dismiss="modal">
+							<i class=" fas fa-window-close"></i>
 
+					</button>
 			</div>
 			<div class="modal-body">
 				<p >
@@ -631,8 +646,60 @@
 				</p>
 			</div>
 			<div class="modal-footer">
-				<button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
-				<a href="tel:+56228951846" class="mdc-button mdc-button--raised">Llamar</a>
+				<!-- <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button> -->
+				<a href="tel:+56228951846" class="mdc-button mdc-button--raised">
+						<i class=" fas fa-envelope"></i>
+				</a>
+
+				<a href="tel:+56228951846" class="mdc-button mdc-button--raised">
+						<i class=" fas fa-phone-alt"></i>
+				</a>
+				<a style="background: green" href="tel:+56228951846" class="mdc-button mdc-button--raised"> <i class=" fab fa-whatsapp"></i>
+				</a>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="modal fade" id="contacto" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+	aria-hidden="true">
+	<div class="modal-dialog modal-dialog-centered" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+					<h5 class="modal-title" id="exampleModalLongTitle"> <strong>INFORMACIÓN</strong></h5>
+
+					<button  style="float: right" type="button" class="mdc-button mdc-button--raised" data-dismiss="modal">
+							<i class=" fas fa-window-close"></i>
+
+					</button>
+
+			</div>
+			<div class="modal-body">
+				<p >
+
+
+						<br>- Santa Beatriz 81 depto 308.
+						<br>- Telefono: +562 2895 1846
+						<br>- Celular: +569 9821 8904.
+
+				</p>
+
+
+
+
+			</div>
+			<div class="modal-footer">
+
+
+				<a href="tel:+56228951846" class="mdc-button mdc-button--raised">
+						<i class=" fas fa-envelope"></i>
+				</a>
+
+				<a href="tel:+56228951846" class="mdc-button mdc-button--raised">
+						<i class=" fas fa-phone-alt"></i>
+				</a>
+				<a style="background: green" href="tel:+56228951846" class="mdc-button mdc-button--raised"> <i class=" fab fa-whatsapp"></i>
+				</a>
 			</div>
 		</div>
 	</div>
@@ -650,18 +717,21 @@
 		<div class="modal-content">
 			<div class="modal-header">
 				<h5 class="modal-title" id="exampleModalLongTitle">EN <strong> NIÑOS</strong></h5>
+				<button  style="float: right" type="button" class="mdc-button mdc-button--raised" data-dismiss="modal">
+						<i class=" fas fa-window-close"></i>
 
+				</button>
 			</div>
 			<div class="modal-body">
 				En los bebés y niños pequeños hay un vínculo tan estrecho entre hijo y
 				madre, que es aconsejable administrar la misma formula a ambos para lograr la
-				reestabilización.
+				reestabilización.<br>
 				En niños más grandes, las esencias florales ayudan a mantener la armonía emocional,
 				propiciando calma, serenidad, motivación y un estado de placentero contentamiento.
 			</div>
 			<div class="modal-footer">
 				<!-- <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button> -->
-				<button type="button" data-dismiss="modal" class="mdc-button mdc-button--raised">Cerrar</button>
+				<!-- <button type="button" data-dismiss="modal" class="mdc-button mdc-button--raised">Cerrar</button> -->
 			</div>
 		</div>
 	</div>
@@ -672,7 +742,10 @@
 		<div class="modal-content">
 			<div class="modal-header">
 				<h5 class="modal-title" id="exampleModalLongTitle">EN <strong>ADOLESCENTES</strong></h5>
+				<button  style="float: right" type="button" class="mdc-button mdc-button--raised" data-dismiss="modal">
+						<i class=" fas fa-window-close"></i>
 
+				</button>
 			</div>
 			<div class="modal-body">
 
@@ -682,7 +755,7 @@
 			</div>
 			<div class="modal-footer">
 				<!-- <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button> -->
-				<button type="button" data-dismiss="modal" class="mdc-button mdc-button--raised">Cerrar</button>
+				<!-- <button type="button" data-dismiss="modal" class="mdc-button mdc-button--raised">Cerrar</button> -->
 			</div>
 		</div>
 	</div>
@@ -694,21 +767,24 @@
 		<div class="modal-content">
 			<div class="modal-header">
 				<h5 class="modal-title" id="exampleModalLongTitle">EN <strong>ADULTOS</strong></h5>
+				<button  style="float: right" type="button" class="mdc-button mdc-button--raised" data-dismiss="modal">
+						<i class=" fas fa-window-close"></i>
 
+				</button>
 			</div>
 			<div class="modal-body">
 
 
 				En adultos suscitan estados emocionales positivos, los que ayudan a la
 				revitalizacion, a bajar la exagerada actividad mental, al buen dormir y a funcionar con
-				dosis adecuadas de energia.
+				dosis adecuadas de energia.<br>
 				En los ancianos ayudan especialmente en el plano espiritual, alejando estados
 				emocionales sombríos, de amargura y desaliento. Conectándolos con el presente y
 				despertando su sistema inmunológico.
 			</div>
 			<div class="modal-footer">
 				<!-- <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button> -->
-				<button type="button" data-dismiss="modal" class="mdc-button mdc-button--raised">Cerrar</button>
+				<!-- <button type="button" data-dismiss="modal" class="mdc-button mdc-button--raised">Cerrar</button> -->
 			</div>
 		</div>
 	</div>
@@ -719,7 +795,10 @@
 		<div class="modal-content">
 			<div class="modal-header">
 				<h5 class="modal-title" id="exampleModalLongTitle">EN <strong>GENERAL</strong></h5>
+				<button  style="float: right" type="button" class="mdc-button mdc-button--raised" data-dismiss="modal">
+						<i class=" fas fa-window-close"></i>
 
+				</button>
 			</div>
 			<div class="modal-body">
 
@@ -727,20 +806,22 @@
 				en gotas. Estas esencias contienen la vibración electromagnética de flores específicas,
 				la que se ha obtenido por los métodos de preparación que dejó indicados el Dr.
 				Edward Bach, el in vestigador que en la decada del 30 del siglo pasado legó al mundo su
-				sistema de 38 flores sanadoras.
+				sistema de 38 flores sanadoras.<br>
 				Esta energia especifica es activada por los fotones del sol y grabada en agua de
-				manantial.
+				manantial.<br>
 				Al ingresar al organismo humano actúa en las dimensiones espiritual, mental, emocional y
 				física devolviendo la armonia y el bienestar y permitiendo superar los estados
 				patológicos.
 			</div>
 			<div class="modal-footer">
 				<!-- <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button> -->
-				<button type="button" data-dismiss="modal" class="mdc-button mdc-button--raised">Cerrar</button>
+				<!-- <button type="button" data-dismiss="modal" class="mdc-button mdc-button--raised">Cerrar</button> -->
 			</div>
 		</div>
 	</div>
 </div>
+
+
 <div class="modal fade" id="mallaCurricular" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
 	aria-hidden="true">
 	<div class="modal-dialog modal-dialog-centered modal-lg" role="document">
@@ -748,8 +829,16 @@
 			<div class="modal-header">
 				<h5 class="modal-title" id="exampleModalLongTitle">MALLA <strong>CURRICULAR</strong></h5>
 
+				<button  style="float: right" type="button" class="mdc-button mdc-button--raised" data-dismiss="modal">
+						<i class=" fas fa-window-close"></i>
+
+				</button>
+
 			</div>
-			<div class="modal-body">
+			<div class="modal-body" style="
+			height: 300px;
+			width: 100%;
+			overflow-y: scroll;">
 
 					<p>La Escuela de terapeutas florales Santa Beatriz es un curso de formación de terapeutas florales dirigido por María Cecilia Gálvez y María Ester Cespedes. Tiene una duración de un año lectivo.<br>
 					 </p>
@@ -781,7 +870,7 @@
 			</div>
 			<div class="modal-footer">
 				<!-- <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button> -->
-				<button type="button" data-dismiss="modal" class="mdc-button mdc-button--raised">CERRAR</button>
+				<!-- <button type="button" data-dismiss="modal" class="mdc-button mdc-button--raised">CERRAR</button> -->
 			</div>
 		</div>
 	</div>
