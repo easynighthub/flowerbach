@@ -55,10 +55,12 @@
 					<li><a href="#top" id="top-link"><span class="icon solid fa-home">Bienvenidos</span></a></li>
 					<li><a href="#servicios" id="servicios-link"><span class="icon solid fa-fan">Servicios</span></a>
 					</li>
-					<li><a href="#cursosDeFormacion" id="portfolio-link"><span class="icon solid  fa-graduation-cap">Curso de
-								Formación</span></a></li>
 					<li><a href="#quienesSomos" id="about-link"><span class="icon solid fa-users">¿Quiénes
 								Somos?</span></a></li>
+					<li><a href="#cursosDeFormacion" id="portfolio-link"><span
+								class="icon solid  fa-graduation-cap">Curso de
+								Formación</span></a></li>
+
 
 					<li><a href="#contact" id="contact-link"><span class="icon solid fa-envelope">Contacto</span></a>
 					</li>
@@ -84,19 +86,17 @@
 
 
 
+
 			</div>
 
 
 		</div>
 
-		<div class="bottom">
+		<div class="bottom" style="text-align: center">
 
 			<!-- Social Icons -->
-			<ul class="icons">
-				<!-- <li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li> -->
+			<!-- <ul class="icons">
 				<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-				<!-- <li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
-							<li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li> -->
 				<li><a href="mailto:contacto@bachflower.cl" class="icon solid fa-envelope"><span
 							class="label">Email</span></a></li>
 				<li><a href="tel:+56228951846" class="icon solid fa-phone-square"> <span class="label">Call</span></a>
@@ -104,7 +104,34 @@
 				<li><a href="https://goo.gl/maps/CHed5a8aS2oh8mDY6" target="_blank"
 						class="icon solid fa-map-marker-alt"><span class="label">Maps</span></a></li>
 
-			</ul>
+
+
+
+
+			</ul> -->
+			<a href="https://goo.gl/maps/CHed5a8aS2oh8mDY6" target="_blank" class="btn btn-info  btn-sm btnSm ">
+				<i class="fas fa-map-marker-alt "></i>
+			</a>
+			<a id="botonAbrirModalTelefonos" class="btn btn-danger btn-sm btnSm">
+				<i class=" fas fa-phone-alt"></i>
+			</a>
+			<a href="mailto:contacto@bachflower.cl" class="btn btn-primary btn-sm btnSm">
+				<i class="fas fa-envelope"></i>
+			</a>
+			<a  id="botonEnviarWhatsapp" class="btn btn-success btn-sm btnSm">
+				<i class=" fab fa-whatsapp"></i>
+			</a>
+
+
+			<!-- <button type="button" class="btn btn-primary">Primary</button>
+				<button type="button" class="btn btn-secondary">Secondary</button>
+				<button type="button" class="btn btn-success">Success</button>
+				<button type="button" class="btn btn-danger">Danger</button>
+				<button type="button" class="btn btn-warning">Warning</button>
+				<button type="button" class="btn btn-info">Info</button>
+				<button type="button" class="btn btn-light">Light</button>
+				<button type="button" class="btn btn-dark">Dark</button> -->
+
 
 		</div>
 
@@ -125,23 +152,25 @@
 
 
 				<header style="color :white;">
-					<h2 class="alt textShadow">Bienvenidos  </h2>
-
+					<h2 class="alt textShadow">Bienvenidos </h2>
+					<!--
 					<h2 class="alt textShadow">
-						<strong>Escuela Santa Beatriz</strong></h2>
+						<strong>Escuela Santa Beatriz</strong></h2> -->
+					<p class="textShadow" style="text-transform: uppercase">Formando terapeutas florales</p>
 
 					<!-- <p style="    margin: 0;"> > María Ester Céspedes.</p> -->
 				</header>
 
 				<footer>
 
-					<p class="textShadow"><em> "La enfermedad es en esencia el resultado de un conflicto entre el alma y la mente,<br> y
+					<p class="textShadow"><em> "La enfermedad es en esencia el resultado de un conflicto entre el alma y
+							la mente,<br> y
 							nunca podrá ser erradicada sin un esfuerzo espiritual y mental."
 
 						</em></p>
 					<p>Edward Bach</p>
 					<!-- <a style="    background: #e27689;" href="#portfolio" class="button scrolly">Malla Curricular y Precios</a> -->
-					<a  data-toggle="modal" data-target="#contacto" class="mdc-button mdc-button--raised">Contacto</a>
+					<a id="botonContacto" data-toggle="modal" data-target="#contacto" class="mdc-button mdc-button--raised">Contacto</a>
 				</footer>
 				<br>
 
@@ -152,7 +181,7 @@
 		<section id="servicios" class="">
 			<div class="container">
 				<header>
-					<h2> <span class="icon solid fa-fan"> </span >Servicios</h2>
+					<h2> <span class="icon solid fa-fan"> </span>Servicios</h2>
 				</header>
 
 				<br>
@@ -161,13 +190,27 @@
 
 
 				<div class="row">
+
+					<div class=" col-md-3">
+						<h5 class="card-title">EN <strong>GENERAL</strong></h5>
+						<img class="card-img-top" src="images/2.jpg" alt="Card image cap">
+						<div class="card-body">
+
+							<p class="card-text ellipsis">Se entiende por terapia floral la administración de esencias
+								florales
+								en gotas. Estas esencias contienen ...</p>
+							<a href="#" data-toggle="modal" data-target="#enGeneral"
+								class="mdc-button mdc-button--raised">Leer mas</a>
+						</div>
+					</div>
 					<div class="efect col-md-3">
 
 						<h5 class="card-title">EN <strong> NIÑOS</strong></h5>
 						<img class="card-img-top" src="images/g6.jpg" alt="Card image cap">
 						<div class="card-body">
 
-							<p class="card-text">En los bebés y niños pequeños hay un vínculo tan estrecho entre hijo y
+							<p class="card-text ellipsis"> En los bebés y niños pequeños hay un vínculo tan estrecho
+								entre hijo y
 								madre, que es ...</p>
 							<a href="#" data-toggle="modal" data-target="#enNinos"
 								class="mdc-button mdc-button--raised">Leer mas</a>
@@ -178,7 +221,8 @@
 						<img class="card-img-top" src="images/g2.jpg" alt="Card image cap">
 						<div class="card-body">
 
-							<p class="card-text">En púberes y adolescentes, remecidos por tormentas hormonales e
+							<p class="card-text ellipsis">En púberes y adolescentes, remecidos por tormentas hormonales
+								e
 								intensos estados emocionales ...</p>
 							<a href="#" data-toggle="modal" data-target="#enAdolescentes"
 								class="mdc-button mdc-button--raised">Leer mas</a>
@@ -189,24 +233,15 @@
 						<img class="card-img-top" src="images/g1.jpg" alt="Card image cap">
 						<div class="card-body">
 
-							<p class="card-text">En adultos suscitan estados emocionales positivos, los que ayudan a la
-								revitalizacion, a bajar ...</p>
+							<p class="card-text ellipsis">En adultos suscitan estados emocionales positivos, los que
+								ayudan a la
+								revitalización, a bajar ...</p>
 							<a href="#" data-toggle="modal" data-target="#enAdultos"
 								class="mdc-button mdc-button--raised">Leer mas</a>
 						</div>
 					</div>
 
-					<div class=" col-md-3">
-						<h5 class="card-title">EN <strong>GENERAL</strong></h5>
-						<img class="card-img-top" src="images/2.jpg" alt="Card image cap">
-						<div class="card-body">
 
-							<p class="card-text">Se entiende por terapia floral la administración de esencias florales
-								en gotas. Estas esencias contienen ...</p>
-							<a href="#" data-toggle="modal" data-target="#enGeneral"
-								class="mdc-button mdc-button--raised">Leer mas</a>
-						</div>
-					</div>
 
 
 
@@ -216,6 +251,55 @@
 			</div>
 
 		</section>
+
+
+
+
+
+		<section >
+
+			<div class="row" style="text-align: center; color: white; ">
+
+
+				<div id="mapa" class="col-md-4 blur btn-info ">
+					<i style="width: 50px;height: 50px; margin: 0px; " class="fas fa-map-marker-alt "></i>
+					<h4>UBÍCANOS</h4>
+					<p>
+						Santa Beatriz 81 dpto 308.
+						<br>
+						​Metro Manuel Montt, Santiago, Chile.
+					</p>
+
+				</div>
+
+
+
+				<div id="llamar" class="col-md-4 blur btn-danger" data-toggle="modal" data-target="#numerosTelefonicos">
+
+
+					<i style="width: 50px;height: 50px; margin: 0px; " class="fas fa-phone-alt "></i>
+					<h4>LLÁMANOS</h4>
+					<p>
+						Aclaramos todas tus dudas. <br>
+						+562 2895 1846 / +569 9821 8904.
+					</p>
+
+				</div>
+				<a id="mensaje" href="mailto:contacto@bachflower.cl" class="col-md-4 blur btn-primary">
+					<i style="width: 50px;height: 50px; margin: 0px; " class="fas fa-envelope "></i>
+					<h4>ENVIANOS UN MENSAJE</h4>
+					<p>
+						Si quieres contáctanos vía correo: <br>
+						contacto@tebach.cl
+					</p>
+
+				</a>
+			</div>
+		</section>
+
+
+
+
 
 		<!-- <section id="objetivosGeneralesEspecificos" class="">
 			<div class="container">
@@ -231,148 +315,46 @@
 		</section> -->
 
 		<!-- Portfolio -->
-		<section id="cursosDeFormacion" class=" two">
-			<div class="container">
+		<section id="quienesSomos" class=" two">
 
-				<header>
-					<h2> 		<i class="fas fa-graduation-cap"></i> Curso de Formación</h2>
-				</header>
-
-
-
-
-				<div class="col-md-12">
-					<!-- <a class="image fit"><img src="images/conlosprofersorescertificadosAGTF.jpg" alt="" /></a> -->
-					<header>
-						<h4>Profesores Certificados AGTF</h4>
-					</header>
-
-				</div>
-
-
-
-
-
-
-				<!-- <a href="#" class="image featured"><img src="images/pic08.jpg" alt="" /></a> -->
-				<div class="row">
-
-
-					<div class="col-md-12">
-						<p style="text-align: left"> La <strong>Escuela de terapeutas florales Santa Beatriz </strong>
-							es un curso de formación de
-							terapeutas florales dirigido por <strong>María Cecilia Gálvez </strong> y con la asistencia
-							académica de<strong>María Ester Cespedes</strong> . Tiene una
-							duración de un año lectivo.<br>
-
-							Cada clase los alumnos deben presentar un trabajo personal cuyo tema es indicado por la
-							profesora
-							del Módulo respectivo. Asimismo, cada alumno cuenta con material escrito y audiovisual de
-							apoyo
-							además de tutorías permanentes on-line.<br>
-							Para aprobar el curso, los estudiantes deben cumplir con un mínimo de 85% de asistencia a
-							clases y
-							aprobar las evaluaciones, tales como:
-							<br>
-
-							- Trabajos personales<br>
-							- Evaluaciones periódicas <br>
-							- Práctica<br>
-							- Supervisada<br>
-							- Trabajo final <br>
-							- Haber rendido un examen que contempla toda la materia del año.<br>
-							Este
-							último, permite acceder al <strong>certificado </strong> que entrega la escuela Santa
-							Beatriz, como también otorga la
-							posibilidad de dar un examen ante la <strong> Asociación Gremial de Terapeutas Florales
-								(AGTF) de Chile </strong> con
-							el fin de obtener la <strong> acreditación y certificación </strong> como terapeuta
-							floral.<br>
-
-						</p>
-					</div>
-					<!-- <div class="col-md-4">
-
-						<div class="col-md-12 ">
-							<article class="item">
-								<a class="image fit"><img src="images/foto1.jpg" alt="" /></a>
-
-							</article>
-
-						</div>
-
-
-					</div> -->
-
-
-
-					<div class="col-md-12"> <button type="button" class="mdc-button mdc-button--raised"
-							data-toggle="modal" data-target="#exampleModal">
-							Inscribirse
-						</button>
-
-						<a href="#" data-toggle="modal" data-target="#mallaCurricular" class="mdc-button mdc-button--raised"> Malla curricular</a>
-					</div>
-
-
-
-
-
-
-
-
-
-
-				</div>
-
-
-				<br>
-
-				<header>
-						<h2>Objetivos Generales y Especificos</h2>
-						<p>Certificación</p>
-					</header>
-
-
-					<div class="row">
-							<div class="col-md-6">
-
-
-									<img src="images/terapia.jpg" style="float: left; " class="col-md-12" />
-
-							</div>
-
-							<div class="col-md-6"
-							<p style="text-align: left"  class="col-md-12">
-									• Somos profesor Oficial de la AG. de Terapeutas Florales de Chile.
-									<br>Institución
-								   que certifica la calidad de la formación de la Terapia Floral desde hace más de 23 años. <br>
-							   <a href="http://www.terapeutasflorales.cl" target="_blank">	www.terapeutasflorales.cl </a> <br>
-								   • Somos miembro fundador de EDELWEISS  <br>Federación de Centros de Formaciones sobre las Esencias
-								   Florales (Francia).<br>
-								   <a href="http://www.formations-edelweiss.org" target="_blank">	www.formations-edelweiss.org </a>	  <br>
-								   • Somos Colaborador y Representante del Laboratorio Deva. <br> Elaborador de Esencias Florales desde
-								   más de 30 años.
-								   <br>
-								   <a href="http://www.deva-lesemotions.com" target="_blank">	www.deva-lesemotions.com </a>
-
-							   </p>
-
-							</div>
-
-						</div>
-
-			</div>
-		</section>
-
-		<!-- About Me -->
-		<section id="quienesSomos" class="three">
 
 			<div style="text-align: left" class="container">
 
 				<header style="text-align: center">
-					<h2><i class="fas fa-users"></i>  ¿Quiénes somos? </h2>
+					<h2><i class="fas fa-users"></i> ¿Quiénes somos? </h2>
 				</header>
+
+				<div class="row">
+					<div class="col-md-4">
+
+
+						<img src="images/terapia.jpg" style="float: left; " class="col-md-12" />
+
+					</div>
+
+					<div class="col-md-8" <p style="text-align: left" class="col-md-12">
+						• Somos profesor Oficial de la AG. de Terapeutas Florales de Chile.
+						<br>Institución
+						que certifica la calidad de la formación de la Terapia Floral desde hace más de 23 años. <br>
+						<a href="http://www.terapeutasflorales.cl" target="_blank"> www.terapeutasflorales.cl </a> <br>
+						• Somos miembro fundador de EDELWEISS <br>Federación de Centros de Formaciones sobre las
+						Esencias
+						Florales (Francia).<br>
+						<a href="http://www.formations-edelweiss.org" target="_blank"> www.formations-edelweiss.org </a>
+						<br>
+						• Somos Colaborador y Representante del Laboratorio Deva. <br> Elaborador de Esencias Florales
+						desde
+						más de 30 años.
+						<br>
+						<a href="http://www.deva-lesemotions.com" target="_blank"> www.deva-lesemotions.com </a>
+
+						</p>
+
+					</div>
+
+				</div>
+
+				<br>
 
 				<div class="row">
 
@@ -383,17 +365,21 @@
 							<h3> María Cecilia Gálvez</h3>
 							<p>
 
-									Estudio Terapia Floral y Reiki, posteriormente profundizó en el estudio y la aplicación de
-									otros sistemas florales, como las flores California, sistema Bush, las francesas de última
-									generación, sistema cubano Arcoíris de Mejoramiento Humano, Diplomado Terapia Floral
-									Evolutiva, Curso de Perfeccionamiento El Modelo Terapéutico ELATEF, Congreso SEDIBAC
-									España, socia activa, Presidenta Asociación Gremial de Terapeutas Florales por los periodos
-									2008- 2010 y 2016- 2018. <br>
-									Participa activamente en la organización de cursos de perfeccionamiento para Terapeutas
-									Florales y lleva la terapia floral a través de Chile y otros países del cono sur, tanto en clínica
-									como en conferencias y seminarios. <br>
-									co-autora del libro “Flores y Energía que Sanan” – 2009 y Directora de la Escuela de
-									formación de Terapeutas Florales Santa Beatriz.
+								Estudio Terapia Floral y Reiki, posteriormente profundizó en el estudio y la aplicación
+								de
+								otros sistemas florales, como las flores California, sistema Bush, las francesas de
+								última
+								generación, sistema cubano Arcoíris de Mejoramiento Humano, Diplomado Terapia Floral
+								Evolutiva, Curso de Perfeccionamiento El Modelo Terapéutico ELATEF, Congreso SEDIBAC
+								España, socia activa, Presidenta Asociación Gremial de Terapeutas Florales por los
+								periodos
+								2008- 2010 y 2016- 2018. <br>
+								Participa activamente en la organización de cursos de perfeccionamiento para Terapeutas
+								Florales y lleva la terapia floral a través de Chile y otros países del cono sur, tanto
+								en clínica
+								como en conferencias y seminarios. <br>
+								co-autora del libro “Flores y Energía que Sanan” – 2009 y Directora de la Escuela de
+								formación de Terapeutas Florales Santa Beatriz.
 								​</p>
 						</div>
 						<div>
@@ -467,51 +453,146 @@
 
 				</div>
 				<!-- <div class="row">
-							<div class="col-4 col-12-mobile">
-								<article class="item">
-									<a href="#" class="image fit"><img src="images/pic02.jpg" alt="" /></a>
-									<header>
-										<h3>Ipsum Feugiat</h3>
-									</header>
-								</article>
-								<article class="item">
-									<a href="#" class="image fit"><img src="images/pic03.jpg" alt="" /></a>
-									<header>
-										<h3>Rhoncus Semper</h3>
-									</header>
-								</article>
-							</div>
-							<div class="col-4 col-12-mobile">
-								<article class="item">
-									<a href="#" class="image fit"><img src="images/pic04.jpg" alt="" /></a>
-									<header>
-										<h3>Magna Nullam</h3>
-									</header>
-								</article>
-								<article class="item">
-									<a href="#" class="image fit"><img src="images/pic05.jpg" alt="" /></a>
-									<header>
-										<h3>Natoque Vitae</h3>
-									</header>
-								</article>
-							</div>
-							<div class="col-4 col-12-mobile">
-								<article class="item">
-									<a href="#" class="image fit"><img src="images/pic06.jpg" alt="" /></a>
-									<header>
-										<h3>Dolor Penatibus</h3>
-									</header>
-								</article>
-								<article class="item">
-									<a href="#" class="image fit"><img src="images/pic07.jpg" alt="" /></a>
-									<header>
-										<h3>Orci Convallis</h3>
-									</header>
-								</article>
-							</div>
-						</div> -->
+									<div class="col-4 col-12-mobile">
+										<article class="item">
+											<a href="#" class="image fit"><img src="images/pic02.jpg" alt="" /></a>
+											<header>
+												<h3>Ipsum Feugiat</h3>
+											</header>
+										</article>
+										<article class="item">
+											<a href="#" class="image fit"><img src="images/pic03.jpg" alt="" /></a>
+											<header>
+												<h3>Rhoncus Semper</h3>
+											</header>
+										</article>
+									</div>
+									<div class="col-4 col-12-mobile">
+										<article class="item">
+											<a href="#" class="image fit"><img src="images/pic04.jpg" alt="" /></a>
+											<header>
+												<h3>Magna Nullam</h3>
+											</header>
+										</article>
+										<article class="item">
+											<a href="#" class="image fit"><img src="images/pic05.jpg" alt="" /></a>
+											<header>
+												<h3>Natoque Vitae</h3>
+											</header>
+										</article>
+									</div>
+									<div class="col-4 col-12-mobile">
+										<article class="item">
+											<a href="#" class="image fit"><img src="images/pic06.jpg" alt="" /></a>
+											<header>
+												<h3>Dolor Penatibus</h3>
+											</header>
+										</article>
+										<article class="item">
+											<a href="#" class="image fit"><img src="images/pic07.jpg" alt="" /></a>
+											<header>
+												<h3>Orci Convallis</h3>
+											</header>
+										</article>
+									</div>
+								</div> -->
 
 			</div>
+
+
+
+		</section>
+
+		<!-- About Me -->
+		<section id="cursosDeFormacion" class="three">
+			<div class="container">
+
+				<header>
+					<h2> <i class="fas fa-graduation-cap"></i> Curso de Formación</h2>
+				</header>
+
+
+
+
+				<div class="col-md-12">
+					<!-- <a class="image fit"><img src="images/conlosprofersorescertificadosAGTF.jpg" alt="" /></a> -->
+					<header>
+						<h4>Profesores Certificados AGTF</h4>
+					</header>
+
+				</div>
+
+
+
+
+
+
+				<!-- <a href="#" class="image featured"><img src="images/pic08.jpg" alt="" /></a> -->
+				<div class="row">
+
+
+					<div class="col-md-12">
+						<p style="text-align: left"> La <strong>Escuela de terapeutas florales Santa Beatriz </strong>
+							es un curso de formación de
+							terapeutas florales dirigido por <strong>María Cecilia Gálvez </strong> y con la asistencia
+							académica de <strong>María Ester Cespedes</strong> . Tiene una
+							duración de un año lectivo.<br>
+
+
+
+						</p>
+					</div>
+					<!-- <div class="col-md-4">
+
+								<div class="col-md-12 ">
+									<article class="item">
+										<a class="image fit"><img src="images/foto1.jpg" alt="" /></a>
+
+									</article>
+
+								</div>
+
+
+							</div> -->
+
+
+
+					<div class="col-md-12"> <button type="button" class="mdc-button mdc-button--raised"
+							data-toggle="modal" data-target="#exampleModal">
+							Inscribirse
+						</button>
+
+						<a href="#" data-toggle="modal" data-target="#mallaCurricular"
+							class="mdc-button mdc-button--raised"> Más Información</a>
+					</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+				</div>
+
+
+				<!-- <br>
+
+						<header>
+							<h2>Objetivos Generales y Especificos</h2>
+							<p>Certificación</p>
+						</header> -->
+
+
+
+
+			</div>
+
 
 		</section>
 
@@ -592,6 +673,381 @@
 
 
 
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+aria-hidden="true">
+<div class="modal-dialog modal-dialog-centered" role="document">
+	<div class="modal-content">
+		<div class="modal-header">
+			<h5 class="modal-title" id="exampleModalLongTitle"> <strong>INFORMACIÓN</strong></h5>
+			<button style="float: right" type="button" class="mdc-button mdc-button--raised" data-dismiss="modal">
+				<i class=" fas fa-window-close"></i>
+
+			</button>
+		</div>
+		<div class="modal-body">
+			<p>
+
+				Solicitamos inscribirse en secretaría:
+				<br>- Santa Beatriz 81 depto 308.
+				<br>- Telefono: +562 2895 1846
+				<br>- Celular: +569 9821 8904.
+
+			</p>
+		</div>
+		<div class="modalFoter">
+			<!-- <div class="modal-footer"> -->
+
+
+
+			<!-- <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button> -->
+
+			<a href="https://goo.gl/maps/CHed5a8aS2oh8mDY6" target="_blank"  class="btn btn-info col-md-2">
+				<i class=" fas fa-map-marker-alt"></i>
+			</a>
+
+
+			<a data-toggle="modal" data-target="#numerosTelefonicos"  data-dismiss="modal" class="btn 	btn-danger    col-md-2">
+				<i class=" fas fa-phone-alt"></i>
+			</a>
+
+			<a href="mailto:contacto@bachflower.cl" class="btn btn-primary  col-md-2">
+					<i class=" fas fa-envelope"></i>
+				</a>
+
+			<a id="botonEnviarWhatsapp2"  class="btn btn-success  col-md-2">
+				<i class=" fab fa-whatsapp"></i>
+			</a>
+		</div>
+	</div>
+</div>
+</div>
+
+<div class="modal fade" id="contacto" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+aria-hidden="true">
+<div class="modal-dialog modal-dialog-centered" role="document">
+	<div class="modal-content">
+		<div class="modal-header">
+			<h5 class="modal-title" id="exampleModalLongTitle"> <strong>INFORMACIÓN</strong></h5>
+
+			<button style="float: right" type="button" class="mdc-button mdc-button--raised" data-dismiss="modal">
+				<i class=" fas fa-window-close"></i>
+
+			</button>
+
+		</div>
+		<div class="modal-body">
+			<p>
+
+
+				<br>- Santa Beatriz 81 depto 308.
+				<br>- Telefono: +562 2895 1846
+				<br>- Celular: +569 9821 8904.
+
+			</p>
+
+
+
+
+		</div>
+		<div class="modalFoter" >
+			<!-- <div class="modal-footer" > -->
+
+
+
+
+					<a href="https://goo.gl/maps/CHed5a8aS2oh8mDY6" target="_blank"  class="btn btn-info col-md-2 col-2">
+						<i class=" fas fa-map-marker-alt"></i>
+					</a>
+
+
+					<a  class="btn 	btn-danger    col-md-2 col-2"  data-toggle="modal" data-target="#numerosTelefonicos"  data-dismiss="modal">
+							<i class=" fas fa-phone-alt"></i>
+						</a>
+
+					<a href="mailto:contacto@bachflower.cl" class="btn btn-primary  col-md-2 col-2">
+							<i class=" fas fa-envelope"></i>
+						</a>
+
+					<a id="botonEnviarWhatsapp3" class="btn btn-success  col-md-2 col-2">
+						<i class=" fab fa-whatsapp"></i>
+					</a>
+		</div>
+	</div>
+</div>
+</div>
+
+
+
+<div class="modal fade" id="numerosTelefonicos" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+aria-hidden="true">
+<div class="modal-dialog modal-dialog-centered" role="document">
+	<div class="modal-content">
+		<div class="modal-header">
+			<h5 class="modal-title" id="exampleModalLongTitle"> <strong>LLÁMANOS</strong></h5>
+			<button style="float: right" type="button" class="mdc-button mdc-button--raised" data-dismiss="modal">
+				<i class=" fas fa-window-close"></i>
+
+			</button>
+		</div>
+		<div class="modal-body">
+
+
+
+
+				<p>
+
+						- Telefono: +562 2895 1846.  <a href="tel:+56228951846"  style="float: right;" class="btn btn-danger col-md-2 btn-sm col-2 ">
+								<i class=" fas fa-phone-alt"></i>
+							</a>
+				</p>
+				<p>
+						- Celular: +569 9821 8904.<a href="tel:+56228951846" style="float: right;" class="btn btn-danger col-md-2  btn-sm col-2">
+								<i class=" fas fa-phone-alt"></i>
+							</a>
+				</p>
+
+
+
+
+
+		</div>
+		<!-- <div class="modalFoter">
+
+
+			<a href="https://goo.gl/maps/CHed5a8aS2oh8mDY6" target="_blank"  class="btn btn-info col-md-2">
+				<i class=" fas fa-map-marker-alt"></i>
+			</a>
+			<a href="mailto:contacto@bachflower.cl" class="btn btn-danger  col-md-2">
+				<i class=" fas fa-envelope"></i>
+			</a>
+
+			<a href="tel:+56228951846"  class="btn 	btn-primary   col-md-2">
+				<i class=" fas fa-phone-alt"></i>
+			</a>
+			<a href="tel:+56228951846" class="btn btn-success  col-md-2">
+				<i class=" fab fa-whatsapp"></i>
+			</a>
+		</div> -->
+	</div>
+</div>
+</div>
+
+
+
+<div class="modal fade" id="enNinos" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+aria-hidden="true">
+<div class="modal-dialog modal-dialog-centered" role="document">
+	<div class="modal-content">
+		<div class="modal-header">
+			<h5 class="modal-title" id="exampleModalLongTitle">EN <strong> NIÑOS</strong></h5>
+			<button style="float: right" type="button" class="mdc-button mdc-button--raised" data-dismiss="modal">
+				<i class=" fas fa-window-close"></i>
+
+			</button>
+		</div>
+		<div class="modal-body">
+			En los bebés y niños pequeños hay un vínculo tan estrecho entre hijo y
+			madre, que es aconsejable administrar la misma formula a ambos para lograr la
+			reestabilización.<br>
+			En niños más grandes, las esencias florales ayudan a mantener la armonía emocional,
+			propiciando calma, serenidad, motivación y un estado de placentero contentamiento.
+		</div>
+		<div class="modal-footer">
+			<!-- <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button> -->
+			<!-- <button type="button" data-dismiss="modal" class="mdc-button mdc-button--raised">Cerrar</button> -->
+		</div>
+	</div>
+</div>
+</div>
+<div class="modal fade" id="enAdolescentes" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+aria-hidden="true">
+<div class="modal-dialog modal-dialog-centered" role="document">
+	<div class="modal-content">
+		<div class="modal-header">
+			<h5 class="modal-title" id="exampleModalLongTitle">EN <strong>ADOLESCENTES</strong></h5>
+			<button style="float: right" type="button" class="mdc-button mdc-button--raised" data-dismiss="modal">
+				<i class=" fas fa-window-close"></i>
+
+			</button>
+		</div>
+		<div class="modal-body">
+
+			En púberes y adolescentes, remecidos por tormentas hormonales e
+			intensos estados emocionales lábiles, las esencias florales cumplen un importantísimo
+			papel.
+		</div>
+		<div class="modal-footer">
+			<!-- <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button> -->
+			<!-- <button type="button" data-dismiss="modal" class="mdc-button mdc-button--raised">Cerrar</button> -->
+		</div>
+	</div>
+</div>
+</div>
+
+<div class="modal fade" id="enAdultos" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+aria-hidden="true">
+<div class="modal-dialog modal-dialog-centered" role="document">
+	<div class="modal-content">
+		<div class="modal-header">
+			<h5 class="modal-title" id="exampleModalLongTitle">EN <strong>ADULTOS</strong></h5>
+			<button style="float: right" type="button" class="mdc-button mdc-button--raised" data-dismiss="modal">
+				<i class=" fas fa-window-close"></i>
+
+			</button>
+		</div>
+		<div class="modal-body">
+
+
+			En adultos suscitan estados emocionales positivos, los que ayudan a la
+			revitalización, a bajar la exagerada actividad mental, al buen dormir y a funcionar con
+			dosis adecuadas de energía.<br>
+			En los ancianos ayudan especialmente en el plano espiritual, alejando estados
+			emocionales sombríos, de amargura y desaliento. Conectándolos con el presente y
+			despertando su sistema inmunológico.
+		</div>
+		<div class="modal-footer">
+			<!-- <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button> -->
+			<!-- <button type="button" data-dismiss="modal" class="mdc-button mdc-button--raised">Cerrar</button> -->
+		</div>
+	</div>
+</div>
+</div>
+<div class="modal fade" id="enGeneral" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+aria-hidden="true">
+<div class="modal-dialog modal-dialog-centered" role="document">
+	<div class="modal-content">
+		<div class="modal-header">
+			<h5 class="modal-title" id="exampleModalLongTitle">EN <strong>GENERAL</strong></h5>
+			<button style="float: right" type="button" class="mdc-button mdc-button--raised" data-dismiss="modal">
+				<i class=" fas fa-window-close"></i>
+
+			</button>
+		</div>
+		<div class="modal-body">
+
+			Se entiende por terapia floral la administración de esencias florales
+			en gotas. Estas esencias contienen la vibración electromagnética de flores específicas,
+			la que se ha obtenido por los métodos de preparación que dejó indicados el Dr.
+			Edward Bach, el investigador que en la decada del 30 del siglo pasado legó al mundo su
+			sistema de 38 flores sanadoras.<br>
+			Esta energía específica es activada por los fotones del sol y grabada en agua de
+			manantial.<br>
+			Al ingresar al organismo humano actúa en las dimensiones espiritual, mental, emocional y
+			física devolviendo la armonía y el bienestar y pérmitiendo superar los estados
+			patológicos.
+		</div>
+		<div class="modal-footer">
+			<!-- <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button> -->
+			<!-- <button type="button" data-dismiss="modal" class="mdc-button mdc-button--raised">Cerrar</button> -->
+		</div>
+	</div>
+</div>
+</div>
+
+
+<div class="modal fade" id="mallaCurricular" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+aria-hidden="true">
+<div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+	<div class="modal-content">
+		<div class="modal-header">
+			<h5 class="modal-title" id="exampleModalLongTitle">MÁS <strong>INFORMACIÓN</strong></h5>
+
+			<button style="float: right" type="button" class="mdc-button mdc-button--raised" data-dismiss="modal">
+				<i class=" fas fa-window-close"></i>
+
+			</button>
+
+		</div>
+		<div class="modal-body" style="
+		height: 300px;
+		width: 100%;
+		overflow-y: scroll;">
+
+			<p>
+
+				Cada clase los alumnos deben presentar un trabajo personal cuyo tema es indicado por la
+				profesora
+				del Módulo respectivo. Asimismo, cada alumno cuenta con material escrito y audiovisual de
+				apoyo
+				además de tutorías permanentes on-line.<br>
+				Para aprobar el curso, los estudiantes deben cumplir con un mínimo de 85% de asistencia a
+				clases y
+				aprobar las evaluaciones, tales como:
+				<br>
+
+				- Trabajos personales<br>
+				- Evaluaciones periódicas <br>
+				- Práctica<br>
+				- Supervisada<br>
+				- Trabajo final <br>
+				- Haber rendido un examen que contempla toda la materia del año.<br>
+				Este
+				último, permite acceder al <strong>certificado </strong> que entrega la escuela Santa
+				Beatriz, como también otorga la
+				posibilidad de dar un examen ante la <strong> Asociación Gremial de Terapeutas Florales
+					(AGTF) de Chile </strong> con
+				el fin de obtener la <strong> acreditación y certificación </strong> como terapeuta
+				floral.<br>
+			</p>
+
+			<!-- <p>La Escuela de terapeutas florales Santa Beatriz es un curso de formación de terapeutas florales
+				dirigido por María Cecilia Gálvez y María Ester Cespedes. Tiene una duración de un año lectivo.<br>
+			</p> -->
+			<!-- <h5>Objetivo General del Curso. </h5>
+			<p>
+				1. Formar Terapeutas Florales acorde a la visión del Dr. Edward Bach, a través de un proceso
+				educativo y terapéutico.<br>
+				2. Promover el auto-conocimiento, sanación y desarrollo personal del alumno a través de la ingesta
+				sistemática de esencias florales.<br>
+				3. Preparar al terapeuta para asistir al consultante en su proceso de sanación emocional y de
+				auto-conocimiento.<br>
+				4. Entregar al alumno la formación teórico – práctica necesaria para desempeñarse como Terapeuta
+				Floral.<br>
+				5. Posibilitar el aprendizaje y desarrollo de habilidades en técnicas diagnósticas específicas, que
+				facilitan el trabajo con el consultante.<br>
+				6. Sensibilizar al alumno con los valores y la ética del Terapeuta Floral, como asimismo con la
+				filosofía y principios del Dr. Bach.<br>
+			</p>
+
+			<h5>Objetivos específicos.</h5>
+			<p>
+				1. Desarrollar procesos terapéuticos que permitan a los y las participantes conocerse a si mismos,
+				identificar sus fortalezas, potenciándolas, para una transformación personal, a través de la Terapia
+				Floral que se realiza durante el curso.<br>
+				2. Impartir el conocimiento del Sistema Floral del Dr. Bach, que permita a los participantes, contar
+				con la información necesaria para, ayudar a las personas a conocerse a si mismos, identificando la
+				personalidad floral, y los estados emocionales en desarmonía.<br>
+				3. Desarrollar las habilidades terapéuticas, que permitan a los y las participantes, facilitar
+				procesos de ayuda a través de la indicación de aquellas esencias que van a fortalecer las virtudes
+				en desarmonía, para que amplíen la visión y logren paz y armonía a la personalidad entera.<br>
+
+			</p>
+
+			<h5>Certificación.</h5>
+			<p>
+				• Somos profesor Oficial de la AG. de Terapeutas Florales de Chile, Institución que certifica la
+				calidad de la formación de la Terapia Floral desde hace más de 23 años.
+				(www.terapeutasflorales.cl).<br>
+				• Somos miembro fundador de EDELWEISS Federación de Centros de Formaciones sobre las Esencias
+				Florales (Francia) (www.formations-edelweiss.org).<br>
+				• Somos Colaborador y Representante del Laboratorio Deva, elaborador de Esencias Florales desde más
+				de 30 años (www.deva-lesemotions.com).<br>
+			</p>
+			<img src="images/descarga.jpg" style="float: left; " class="col-md-2 col-sm-6 col-4" />
+			<p> <em>Este curso permite obtener un certificado de la escuela Santa Beatriz, como también otorga la
+					posibilidad de dar un examen ante la Asociación Gremial de Terapeutas Florales (AGTF) de Chile
+					con el fin de obtener la acreditación y certificación como terapeuta floral de esta.</em>
+			</p> -->
+		</div>
+		<div class="modal-footer">
+			<!-- <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button> -->
+			<!-- <button type="button" data-dismiss="modal" class="mdc-button mdc-button--raised">CERRAR</button> -->
+		</div>
+	</div>
+</div>
+</div>
+
+
 
 	<!-- Small modal -->
 
@@ -619,263 +1075,9 @@
 
 	<script src="index.js"></script>
 	<script defer src="fontawesome-free-5.9.0-web/js/all.js"></script>
+
+
+
 </body>
-
-
-
 </html>
 
-
-<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-	aria-hidden="true">
-	<div class="modal-dialog modal-dialog-centered" role="document">
-		<div class="modal-content">
-			<div class="modal-header">
-					<h5 class="modal-title" id="exampleModalLongTitle"> <strong>INFORMACIÓN</strong></h5>
-					<button  style="float: right" type="button" class="mdc-button mdc-button--raised" data-dismiss="modal">
-							<i class=" fas fa-window-close"></i>
-
-					</button>
-			</div>
-			<div class="modal-body">
-				<p >
-
-						Solicitamos inscribirse en secretaría:
-						<br>- Santa Beatriz 81 depto 308.
-						<br>- Telefono: +562 2895 1846
-						<br>- Celular: +569 9821 8904.
-
-				</p>
-			</div>
-			<div class="modal-footer">
-				<!-- <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button> -->
-				<a href="tel:+56228951846" class="mdc-button mdc-button--raised">
-						<i class=" fas fa-envelope"></i>
-				</a>
-
-				<a href="tel:+56228951846" class="mdc-button mdc-button--raised">
-						<i class=" fas fa-phone-alt"></i>
-				</a>
-				<a style="background: green" href="tel:+56228951846" class="mdc-button mdc-button--raised"> <i class=" fab fa-whatsapp"></i>
-				</a>
-			</div>
-		</div>
-	</div>
-</div>
-
-<div class="modal fade" id="contacto" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-	aria-hidden="true">
-	<div class="modal-dialog modal-dialog-centered" role="document">
-		<div class="modal-content">
-			<div class="modal-header">
-					<h5 class="modal-title" id="exampleModalLongTitle"> <strong>INFORMACIÓN</strong></h5>
-
-					<button  style="float: right" type="button" class="mdc-button mdc-button--raised" data-dismiss="modal">
-							<i class=" fas fa-window-close"></i>
-
-					</button>
-
-			</div>
-			<div class="modal-body">
-				<p >
-
-
-						<br>- Santa Beatriz 81 depto 308.
-						<br>- Telefono: +562 2895 1846
-						<br>- Celular: +569 9821 8904.
-
-				</p>
-
-
-
-
-			</div>
-			<div class="modal-footer">
-
-
-				<a href="tel:+56228951846" class="mdc-button mdc-button--raised">
-						<i class=" fas fa-envelope"></i>
-				</a>
-
-				<a href="tel:+56228951846" class="mdc-button mdc-button--raised">
-						<i class=" fas fa-phone-alt"></i>
-				</a>
-				<a style="background: green" href="tel:+56228951846" class="mdc-button mdc-button--raised"> <i class=" fab fa-whatsapp"></i>
-				</a>
-			</div>
-		</div>
-	</div>
-</div>
-
-
-
-
-
-
-
-<div class="modal fade" id="enNinos" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
-	aria-hidden="true">
-	<div class="modal-dialog modal-dialog-centered" role="document">
-		<div class="modal-content">
-			<div class="modal-header">
-				<h5 class="modal-title" id="exampleModalLongTitle">EN <strong> NIÑOS</strong></h5>
-				<button  style="float: right" type="button" class="mdc-button mdc-button--raised" data-dismiss="modal">
-						<i class=" fas fa-window-close"></i>
-
-				</button>
-			</div>
-			<div class="modal-body">
-				En los bebés y niños pequeños hay un vínculo tan estrecho entre hijo y
-				madre, que es aconsejable administrar la misma formula a ambos para lograr la
-				reestabilización.<br>
-				En niños más grandes, las esencias florales ayudan a mantener la armonía emocional,
-				propiciando calma, serenidad, motivación y un estado de placentero contentamiento.
-			</div>
-			<div class="modal-footer">
-				<!-- <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button> -->
-				<!-- <button type="button" data-dismiss="modal" class="mdc-button mdc-button--raised">Cerrar</button> -->
-			</div>
-		</div>
-	</div>
-</div>
-<div class="modal fade" id="enAdolescentes" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
-	aria-hidden="true">
-	<div class="modal-dialog modal-dialog-centered" role="document">
-		<div class="modal-content">
-			<div class="modal-header">
-				<h5 class="modal-title" id="exampleModalLongTitle">EN <strong>ADOLESCENTES</strong></h5>
-				<button  style="float: right" type="button" class="mdc-button mdc-button--raised" data-dismiss="modal">
-						<i class=" fas fa-window-close"></i>
-
-				</button>
-			</div>
-			<div class="modal-body">
-
-				En púberes y adolescentes, remecidos por tormentas hormonales e
-				intensos estados emocionales lábiles, las esencias florales cumplen un importantisimo
-				papel.
-			</div>
-			<div class="modal-footer">
-				<!-- <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button> -->
-				<!-- <button type="button" data-dismiss="modal" class="mdc-button mdc-button--raised">Cerrar</button> -->
-			</div>
-		</div>
-	</div>
-</div>
-
-<div class="modal fade" id="enAdultos" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
-	aria-hidden="true">
-	<div class="modal-dialog modal-dialog-centered" role="document">
-		<div class="modal-content">
-			<div class="modal-header">
-				<h5 class="modal-title" id="exampleModalLongTitle">EN <strong>ADULTOS</strong></h5>
-				<button  style="float: right" type="button" class="mdc-button mdc-button--raised" data-dismiss="modal">
-						<i class=" fas fa-window-close"></i>
-
-				</button>
-			</div>
-			<div class="modal-body">
-
-
-				En adultos suscitan estados emocionales positivos, los que ayudan a la
-				revitalizacion, a bajar la exagerada actividad mental, al buen dormir y a funcionar con
-				dosis adecuadas de energia.<br>
-				En los ancianos ayudan especialmente en el plano espiritual, alejando estados
-				emocionales sombríos, de amargura y desaliento. Conectándolos con el presente y
-				despertando su sistema inmunológico.
-			</div>
-			<div class="modal-footer">
-				<!-- <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button> -->
-				<!-- <button type="button" data-dismiss="modal" class="mdc-button mdc-button--raised">Cerrar</button> -->
-			</div>
-		</div>
-	</div>
-</div>
-<div class="modal fade" id="enGeneral" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
-	aria-hidden="true">
-	<div class="modal-dialog modal-dialog-centered" role="document">
-		<div class="modal-content">
-			<div class="modal-header">
-				<h5 class="modal-title" id="exampleModalLongTitle">EN <strong>GENERAL</strong></h5>
-				<button  style="float: right" type="button" class="mdc-button mdc-button--raised" data-dismiss="modal">
-						<i class=" fas fa-window-close"></i>
-
-				</button>
-			</div>
-			<div class="modal-body">
-
-				Se entiende por terapia floral la administración de esencias florales
-				en gotas. Estas esencias contienen la vibración electromagnética de flores específicas,
-				la que se ha obtenido por los métodos de preparación que dejó indicados el Dr.
-				Edward Bach, el in vestigador que en la decada del 30 del siglo pasado legó al mundo su
-				sistema de 38 flores sanadoras.<br>
-				Esta energia especifica es activada por los fotones del sol y grabada en agua de
-				manantial.<br>
-				Al ingresar al organismo humano actúa en las dimensiones espiritual, mental, emocional y
-				física devolviendo la armonia y el bienestar y permitiendo superar los estados
-				patológicos.
-			</div>
-			<div class="modal-footer">
-				<!-- <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button> -->
-				<!-- <button type="button" data-dismiss="modal" class="mdc-button mdc-button--raised">Cerrar</button> -->
-			</div>
-		</div>
-	</div>
-</div>
-
-
-<div class="modal fade" id="mallaCurricular" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
-	aria-hidden="true">
-	<div class="modal-dialog modal-dialog-centered modal-lg" role="document">
-		<div class="modal-content">
-			<div class="modal-header">
-				<h5 class="modal-title" id="exampleModalLongTitle">MALLA <strong>CURRICULAR</strong></h5>
-
-				<button  style="float: right" type="button" class="mdc-button mdc-button--raised" data-dismiss="modal">
-						<i class=" fas fa-window-close"></i>
-
-				</button>
-
-			</div>
-			<div class="modal-body" style="
-			height: 300px;
-			width: 100%;
-			overflow-y: scroll;">
-
-					<p>La Escuela de terapeutas florales Santa Beatriz es un curso de formación de terapeutas florales dirigido por María Cecilia Gálvez y María Ester Cespedes. Tiene una duración de un año lectivo.<br>
-					 </p>
-						<h5>Objetivo General del Curso. </h5>
-					<p>
-						1.	Formar Terapeutas Florales acorde a la visión del Dr. Edward Bach, a través de un proceso educativo y terapéutico.<br>
-					2.	Promover el auto-conocimiento, sanación y desarrollo personal del alumno a través de la ingesta sistemática de esencias florales.<br>
-					3.	Preparar al terapeuta para asistir al consultante en su proceso de sanación emocional y de auto-conocimiento.<br>
-					4.	Entregar al alumno la formación teórico – práctica necesaria para desempeñarse como Terapeuta Floral.<br>
-					5.	Posibilitar el aprendizaje y desarrollo de habilidades en técnicas diagnósticas específicas, que facilitan el trabajo con el consultante.<br>
-					6.	Sensibilizar al alumno con los valores y la ética del Terapeuta Floral, como asimismo con la filosofía y principios del Dr. Bach.<br>
-				</p>
-
-					<h5>Objetivos específicos.</h5>
-					<p>
-					1.	Desarrollar procesos terapéuticos que permitan a los y las participantes conocerse a si mismos, identificar sus fortalezas, potenciándolas, para una transformación personal, a través de la Terapia Floral que se realiza durante el curso.<br>
-					2.	Impartir el conocimiento del Sistema Floral del Dr. Bach, que permita a los participantes, contar con la información necesaria para, ayudar a las personas a conocerse a si mismos, identificando la personalidad floral, y los estados emocionales en desarmonía.<br>
-					3.	Desarrollar las habilidades terapéuticas, que permitan a los y las participantes, facilitar procesos de ayuda a través de la indicación de aquellas esencias que van a fortalecer las virtudes en desarmonía, para que amplíen la visión y logren paz y armonía a la personalidad entera.<br>
-
-				</p>
-
-				<h5>Certificación.</h5>
-<p>
-					•	Somos profesor Oficial de la AG. de Terapeutas Florales de Chile, Institución que certifica la calidad de la formación de la Terapia Floral desde hace más de 23 años. (www.terapeutasflorales.cl).<br>
-					•	Somos miembro fundador de EDELWEISS Federación de Centros de Formaciones sobre las Esencias Florales (Francia) (www.formations-edelweiss.org).<br>
-					•	Somos Colaborador y Representante del Laboratorio Deva, elaborador de Esencias Florales desde más de 30 años (www.deva-lesemotions.com).<br>
-				</p>
-				<img src="images/descarga.jpg" style="float: left; " class="col-md-2 col-sm-6 col-4" />
-				<p>	<em>Este curso permite obtener un certificado de la escuela Santa Beatriz, como también otorga la posibilidad de dar un examen ante la Asociación Gremial de Terapeutas Florales (AGTF) de Chile con el fin de obtener la acreditación y certificación como terapeuta floral de esta.</em>
-			</p>
-			</div>
-			<div class="modal-footer">
-				<!-- <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button> -->
-				<!-- <button type="button" data-dismiss="modal" class="mdc-button mdc-button--raised">CERRAR</button> -->
-			</div>
-		</div>
-	</div>
-</div>
