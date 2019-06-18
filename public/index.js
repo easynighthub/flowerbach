@@ -13,6 +13,9 @@ document
 document
   .getElementById("botonEnviarWhatsapp3")
   .addEventListener("click", enviarMensajeWhatsapp);
+document
+  .getElementById("botonEnviarWhatsapp4")
+  .addEventListener("click", enviarMensajeWhatsapp);
 
 function abrirMapa() {
   console.log("abrir mapa");
