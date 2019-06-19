@@ -2657,7 +2657,8 @@ background:#53a7ea;
 /* .card-img-top:hover {filter: blur(0px);}
 .card-img-top {filter: blur(3px);} */
 
-.card-img-top:hover{filter: grayscale(80%);}
+.card-img-top{filter: grayscale(80%);}
+.card-img-top:hover{filter: grayscale(0%);}
 /* .card-img-top:hover {filter: saturate(180%);} */
 
 .blur{
