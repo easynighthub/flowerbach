@@ -57,9 +57,11 @@ $(window).on("scroll", function() {
 
   if (quienesSomos && !estatica2) {
     estatica2 = true;
-    $("#hTextQuienesSomos").addClass("animated infinite bounceInLeft delay-1s");
+    $("#hTextQuienesSomos").addClass(
+      "animated infinite bounceInRight delay-1s"
+    );
     setTimeout(
-      ' $("#hTextQuienesSomos").removeClass("animated infinite bounceInLeft delay-1s");',
+      ' $("#hTextQuienesSomos").removeClass("animated infinite bounceInRight delay-1s");',
       2000
     );
   }
