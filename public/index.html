@@ -68,6 +68,8 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
 		integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
+
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
 		<!-- <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> -->
 
 
@@ -302,7 +304,7 @@
 		<section id="servicios" >
 			<div class="container">
 				<header>
-					<h2>
+					<h2 id="hTextServicios">
 						<!-- <span class="icon solid fa-fan"> </span> -->
 						Servicios</h2>
 				</header>
@@ -376,18 +378,29 @@
 		</section>
 
 
+		<!--
+		<a id="botonAbrirModalTelefonos" class="btn btn-danger btn-sm btnSm">
+			<i class=" fas fa-phone-alt"></i>
+		</a>
+		<a href="mailto:contacto@bachflower.cl" class="btn btn-primary btn-sm btnSm">
+			<i class="fas fa-envelope"></i>
+		</a>
+		<a id="botonEnviarWhatsapp" class="btn btn-success btn-sm btnSm">
+			<i class=" fab fa-whatsapp"></i>
+		</a> -->
 
 
-
-		<section>
+		<section id="section1">
 
 			<div class="row" style="text-align: center; color: white; ">
 
 
-				<div id="mapa" class="col-md-4 blur  ">
+				<div id="mapa" class="col-md-4 blur ">
 						<!-- btn-info -->
-					<i style="width: 50px;height: 50px; margin: 0px; " class="fas fa-map-marker-alt "></i>
-					<h4>UBÍCANOS</h4>
+					<i id="iconUbicacion" style="width: 50px;height: 50px; margin: 0px; " class="fas fa-map-marker-alt "></i>
+
+
+					<h4 class="">UBÍCANOS</h4>
 					<p>
 						Santa Beatriz 81 dpto 308.
 						<br>
@@ -401,7 +414,7 @@
 				<div id="llamar" class="col-md-4 blur " data-toggle="modal" data-target="#numerosTelefonicos">
 						<!-- btn-danger -->
 
-					<i style="width: 50px;height: 50px; margin: 0px; " class="fas fa-phone-alt "></i>
+					<i id="iconLlamar" style="width: 50px;height: 50px; margin: 0px; " class="fas fa-phone-alt "></i>
 					<h4>LLÁMANOS</h4>
 					<p>
 						Aclaramos todas tus dudas. <br>
@@ -411,7 +424,7 @@
 				</div>
 				<a id="mensaje" href="mailto:contacto@bachflower.cl" style="color: white" class="col-md-4 blur ">
 						<!-- btn-primary -->
-					<i style="width: 50px;height: 50px; margin: 0px; " class="fas fa-envelope "></i>
+					<i id="iconMensaje" style="width: 50px;height: 50px; margin: 0px; " class="fas fa-envelope "></i>
 					<h4>ENVIANOS UN MENSAJE</h4>
 					<p>
 						Si quieres contáctanos vía correo: <br>
@@ -446,7 +459,7 @@
 			<div style="text-align: left" class="container">
 
 				<header style="text-align: center">
-					<h2>
+					<h2 id="hTextQuienesSomos">
 						<!-- <i class="fas fa-users"></i>  -->
 						¿Quiénes somos? </h2>
 				</header>
