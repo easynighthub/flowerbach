@@ -2986,3 +2986,10 @@ background:#53a7ea;
 		width: 100%;
 		overflow-y: auto;
 }
+
+
+.iconLlamar {
+	animation-duration: 3s;
+	animation-delay: 2s;
+	animation-iteration-count: infinite;
+  }
